@@ -1,0 +1,53 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo 
+                img(src="static/1.png")
+            
+            li #[a(href="/") Home]
+            li #[a(href="/") About us]
+            li #[a(href="/") Contact us]
+            li #[a(href="/") Services]
+            li #[a(href="/") class info]
+    section#introSection
+        div    Welcome to Hetal's Dance Academy
+        div    Eat Sleep Dance Repeat
+    section#missionSection
+        h3     Our mission
+        div.card
+            h3 Dance Perfection
+            div.card-box 
+                div.card-img 
+                    img(src="static/2.png")
+                div.card-content 
+                    p this is the best dance academy
+        div.card
+            h3 Dance the way you like
+            div.card-box 
+                div.card-img 
+                    img(src="static/3.png")
+                div.card-content 
+                    p this is the best dance academy
+        div.card
+            h3 Expert teaching
+            div.card-box 
+                div.card-img 
+                    img(src="static/4.png")
+                div.card-content 
+                    p this is the best dance academy
+    section#sponsorSection
+        h3     Our Sponsors
+        div#sponsors 
+            img(src="static/applelogo.png",alt="sponsor image",class="spImage")
+            img(src="static/hplogo.png",alt="sponsor image",class="spImage")
+            img(src="static/microsoftlogo.png",alt="sponsor image",class="spImage")
+            img(src="static/skypelogo.png",alt="sponsor image",class="spImage")
+    footer#footer 
+            |copyright © 2023 HetalDanceAcademy.com | All right reserved
+    script
+      include ../static/index.js

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+*{
+    margin :0px;
+    box-sizing: border-box;
+    padding:0px;
+    
+}
+#logo{
+    /* display:flex;
+    color:white;
+    align-items:center;
+    margin:0px 14px; */
+    height:39px;
+    display: flex;
+    filter:invert(1);
+}
+
+#navbar{
+    
+    background-color: aqua;
+    padding:13px 15px;
+    font-family: 'Lumanosimo', cursive;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+#navbar li{
+    list-style: none;
+    
+}
+#navbar li a{
+    padding:7px 11px;
+    text-decoration: none;
+
+}
+#navbar li a:hover{
+    color:red;
+}
+#introSection{
+    flex-direction: column;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:350px;
+    background: url('static/bg.jpg') no-repeat center center/cover;
+
+} 
+#missionSection{
+    height:300px;
+    width:90%;
+    margin:auto;
+   
+}
+#missionSection h3{
+    text-align: center;
+   
+}
+.card{
+    display: inline-block;
+    border:2px solid black;
+    border-radius: 10px;
+    width:30%;
+    margin:23px 12px;
+    height:209px;
+    background-color: rgb(242, 225, 204);
+}
+#sponsorSection{
+    height:175px;
+    background-color: rgba(65, 205, 205, 0.852);
+}
+.card-box{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    
+}
+.card-img img{
+    display:flex;
+    height:150px;
+}
+#sponsorSection h3{
+    text-align: center;
+    padding-top:15px;
+}
+#sponsors{
+    display:flex;
+    height:120px;
+    max-width:1000px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+   
+    /* margin:4px auto; */
+}
+.spImage{
+    height:80%;
+    margin:20px 12px;
+
+}
+#footer{
+    background-color: black;
+    height:50px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
